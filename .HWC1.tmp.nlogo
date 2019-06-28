@@ -7,7 +7,7 @@ crop-unit-price         ;; sale price or price per unit of crops
 labor-wage              ;; wages per season
 
 farmers-own [
-  money
+
 ]
 
 
@@ -29,9 +29,8 @@ end
 to setup-farmerst
   create-farmers number-of-farmers
   ask-farmers [
-    setxy random-xcor random-ycor ;; put farmers in random places
-    set money 100  ;; start everyone off with 100 shells
-
+    setxy random-xcor random-ycor
+    set
 @#$#@#$#@
 GRAPHICS-WINDOW
 210
